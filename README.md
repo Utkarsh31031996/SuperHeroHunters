@@ -2,7 +2,7 @@
 
 This is a SuperHero Hunter application created By using HTML, CSS and Vanilla JavaScript, We see all the SuperHeroes through this app. We also see the SuperPower of Heroes as well as their image. We can add SuperHeroes to favorites list.
 
-This SuperHero Hunter app is hosted using github on https://iamabhi443.github.io/MealApp/
+This SuperHero Hunter app is hosted using github on https://utkarsh31031996.github.io/SuperHeroHunters/
 
 We can perform following functions-
 
