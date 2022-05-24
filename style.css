@@ -1,0 +1,132 @@
+body{
+    background-image: url(https://images.hdqwalls.com/wallpapers/dc-superheroes-ji.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#searchSuperHero{
+    display: block;
+    width: 53%;
+    height: 3rem;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding-left: 2%;
+    background-color: whitesmoke;
+    outline: none;
+    border: 0px solid white;
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    height: 3rem;
+    font-family: 'Smooch', cursive;
+}
+
+#heading{
+    color: red;
+    transform: scale(1.1);
+    animation:heading 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @keyframes heading {
+    from {color: red;}
+    25% {color: greenyellow;}
+    75%{color: blue;}
+    to{color: orangered;}
+  }
+
+ .image-size{
+    width: 150px;
+    height: 150px;
+    margin-left: 1rem;
+}
+.image-size:hover{
+    transform: scale(1.05);
+}
+.favourite-heroes{
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(162, 0, 255);
+    
+
+    
+   
+}
+.favourite-heroes p:hover{
+    color: antiquewhite;
+    border-bottom: 1px solid white;
+    transform: scale(1.1);
+}
+    
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    height: 70vh;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #42275a;
+    /* background-color: lightpink; */
+    overflow: scroll;
+    opacity: 0;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+#delFav{
+    color: red;
+    font-size: 25px;
+
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+#addFav:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.removeFav{
+    font-size: 20px;
+}
+

@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(#FF5F6D,#FFC371);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fav-hero-container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.favImage{
+    width: 200px;
+    height: 200px;
+}
+.favImage:hover{
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+h3{
+    transform: scale(1.1);
+    animation:h3 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @keyframes h3 {
+    from {color: rgb(218, 8, 8);}
+    25% {color: rgb(43, 49, 33);}
+    75%{color: rgb(24, 24, 116);}
+    to{color: rgb(158, 53, 14);}
+  }
+a:hover{
+    color: white;
+}
+
+#fav-hero-container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: #282162;
+}
+/* #fav-hero-container 
+h3{
+    color: red;
+} */
+
+#fav-hero-container div button{
+    outline: none;
+    margin-bottom: 20px;
+    
+}
+#fav-hero-container button{
+    border: 2px solid yellow;
+}
+
+#fav-hero-container div button:hover{
+    box-shadow: blueviolet 1px 1px 5px 1px;
+}
+
+div a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
+.removeFav{
+    padding: 1px;
+    border: 2px solid whitesmoke;
+    font-weight: 600;
+}
+.removeFav:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
